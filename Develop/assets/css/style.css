@@ -50,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* Hero Section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +60,90 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main Content Section - Start */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Main Content Article Img Left Position */
+.content-float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Main Content Article Img Right Position */
+.content-float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Main Content - Article - Search Engine Optimization */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Main Content - Article - Search Engine Optimization - Heading */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main Content - Article - Search Engine Optimization - Image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Main Content - Article - Online Reputation Management */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Main Content - Article - Online Reputation Management - Heading */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main Content - Article - Online Reputation Management - Image */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Main Content - Article - Social Media Marketing */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Main Content - Article - Social Media Marketing - Heading */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main Content - Article - Social Media Marketing - Image */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Main Content Section - End */
+
+/* Benefits Section - Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +155,65 @@ p {
     background-color: #2589bd;
 }
 
+/* Benefits Section - Aside - Lead */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Benefits Section - Aside - Lead - Title */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Benefits Section - Aside - Lead - Image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Benefits Section - Aside - Brand */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefits Section - Aside - Brand - Title */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Benefits Section - Aside - Brand - Image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Benefits Section - Aside - Cost */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefits Section - Aside - Cost - Title */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Benefits Section - Aside - Cost - Image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefit Section - End */
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Section - Start */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +224,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Section - End */
